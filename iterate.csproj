@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\index-2ZhzdYFk.js" />
+    <None Include="wwwroot\assets\index-B3-lsEYV.js" />
+    <None Include="wwwroot\assets\index-BeHAQf5I.js" />
+    <None Include="wwwroot\assets\index-BM1EF_kS.js" />
+    <None Include="wwwroot\assets\index-BtCgfrQU.js" />
+    <None Include="wwwroot\assets\index-C15j4Bcl.js" />
+    <None Include="wwwroot\assets\index-Caa75bDQ.js" />
+    <None Include="wwwroot\assets\index-CaNy86Sm.js" />
+    <None Include="wwwroot\assets\index-CBoGqfxG.js" />
+    <None Include="wwwroot\assets\index-CCM4e4Si.js" />
+    <None Include="wwwroot\assets\index-CF_Xz8OJ.js" />
+    <None Include="wwwroot\assets\index-CjjMJKFK.js" />
+    <None Include="wwwroot\assets\index-DfRrkdGZ.js" />
+    <None Include="wwwroot\assets\index-Dk0VxwF9.js" />
+    <None Include="wwwroot\assets\index-DkegxE7Q.js" />
+    <None Include="wwwroot\assets\index-Do9eQ4w7.js" />
+    <None Include="wwwroot\assets\index-Dol7gePM.js" />
+    <None Include="wwwroot\assets\index-DsX3mEvX.js" />
+    <None Include="wwwroot\assets\index-DVtx9RR1.js" />
+    <None Include="wwwroot\assets\index-DxX7m6NQ.js" />
+    <None Include="wwwroot\assets\index-juzvhV43.js" />
+    <None Include="wwwroot\assets\index-QaV7hQHF.js" />
+    <None Include="wwwroot\assets\index-T2c4nL8L.js" />
+    <None Include="wwwroot\assets\index-wOoteZ5A.js" />
+    <None Include="wwwroot\assets\materialdesignicons-webfont-Dp5v-WZN.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ElectronNET.API" Version="23.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ui\assets\iterate_ico1.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ui\assets\iterate_ico1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
