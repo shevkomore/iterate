@@ -148,6 +148,7 @@ namespace iterate.ui.data
                 });
             treeView.LoadURL($"{Environment.CurrentDirectory}/wwwroot/index.html#tree");
             treeView.OnReadyToShow += treeView.Show;
+            treeView.OnClosed += () => treeView = null;
         }
 
         private void LoadVersion(object obj)
